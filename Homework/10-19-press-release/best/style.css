@@ -1,0 +1,287 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  background-color: #eee;
+  font-family: arimo;
+  background-image: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-2.49.10-PM.png);
+  background-size: cover;
+  background-repeat: repeat-y !important;
+}
+
+.content {
+  width: 60%;
+  padding: 1%;
+  display: block;
+  float: left;
+}
+
+.subcont {
+  margin-bottom: 50px;
+  padding: 0 7%;
+}
+
+div {
+  display: block;
+}
+
+.ga:after {
+  height:16px;
+  width: 16px;
+  background-image: url(https://jlr7245.github.io/ga_press_release_continued/logo.png); 
+  background-size: cover;
+  display:inline-block;
+  margin: 2px;
+  content:" ";
+}
+
+.container {
+  width: 70%;
+  max-width: 1000px;
+  margin: 120px auto;
+  border: 1px solid #ddd;
+  background-color: white;
+  display: block;
+}
+
+.head {
+  padding: 50px 7% 0;
+}
+
+.logotop {
+  max-height: 150px;
+}
+
+.clear {
+  clear: both;
+}
+
+.location {
+  margin: 70px 0 5px 0;
+  text-indent: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.red {
+  color: #CF4948;
+}
+
+.header {
+  margin-top: 5px;
+}
+
+.osw {
+  font-family: 'Oswald', serif;
+}
+
+.col {
+  width: 30%;
+  padding: 3%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.col:first-of-type {
+  border-top: 1px solid #ddd;
+}
+
+.col:nth-of-type(2) {
+  background-color: #ddd;
+}
+
+.col img {
+  width: 80%;
+  display: block;
+  margin: 0px auto;
+  max-width: 300px;
+}
+
+.col:nth-of-type(3) {
+  background-color: #CF4948;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  -webkit-margin-before: 1.33em;
+  -webkit-margin-after: 1.33em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14em;
+  list-style-type: none;
+}
+
+.frm {
+  font-family: 'Fira Mono', Monospace;
+}
+
+ul {
+  display: block;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+.content ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  font-family: "fira mono";
+  text-align: center;
+}
+
+.content ul li {
+  color: white;
+  background-color: #CF4948;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 3px 12px;
+  margin: 5px;
+  border-bottom: 2px solid #A20101;
+}
+
+.col ul li {
+  line-height: 2em;
+}
+
+.fa-ul>li {
+  position: relative;
+}
+
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: .14285714em;
+  text-align: center;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.linktosite {
+  font-size: 1.2em;
+  border: 5px solid white;
+  background: none;
+  color: white;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: none;
+  padding: 5px 10px;
+  font-family: "fira mono", monospace;
+}
+
+.linktosite a {
+  color: white;
+  text-decoration: none;
+}
+
+.side {
+  width: 30%;
+  padding: 3%;
+  display: block;
+  float: right;
+  border-left: 1px solid #ddd;
+}
+
+.side h3 {
+  font-size: 1.5em;
+  color: #CF4948;
+}
+
+.side p {
+  font-size: 1.3em;
+}
+
+.side .linktosite a{
+  color: #CF4948;
+  border-radius: 20px; 
+  font-size: 1.2em;
+  border: 5px solid #CF4948;
+  background: none;
+  border-radius: 20px;
+  box-shadow: none;
+  padding: 5px 10px;
+  font-family: "fira mono", monospace;
+  float: left;
+}
+
+.fa-user:before {
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.33.46-PM.png); 
+  display: inline-block;
+}
+
+.fa-phone:before {
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.33.53-PM.png); 
+  display: inline-block;
+}
+
+.fa-envelope-o:before {
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.33.57-PM.png); 
+  display: inline-block;
+}
+
+.fa-gears:before, .fa-cogs:before {
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.34.06-PM.png); 
+  display: inline-block;
+}
+
+.fa-twitter:before {
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.34.06-PM.png); 
+  display: inline-block;
+  margin-top: 1px;
+}
+
+.fa-twitter:before {
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.34.30-PM.png); 
+  display: inline-block;
+  margin-top: 1px;
+}
+
+.fa-facebook:before { 
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.34.35-PM.png); 
+  display: inline-block;
+}
+
+.fa-instagram:before {
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.34.40-PM.png); 
+  display: inline-block;
+}
+
+.fa-linkedin:before {
+  content: url(http://www.randomhousebooks.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-23-at-3.34.45-PM.png);
+  display: inline-block;
+}
