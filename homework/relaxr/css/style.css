@@ -9,36 +9,13 @@ Developer @GA in NYC
 /******************************************
 /* SETUP
 /*******************************************/
+@import url('https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans');
 
 /* Box Model Hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -49,9 +26,9 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open sans', sans-serif;
+     margin: 0 auto;
+     max-width: 100%;
 }
 
 
@@ -63,22 +40,158 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
+  margin: 0 auto;
 }
 
 header {
+  height: 500px;
+  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  margin: -2% 0% 0% 0%;
+  text-align: center;
+}
 
+.benefits {
+  background-color: #f0efef;
+  padding: 5% 40% 6% 8%;
+}
+
+.quote {
+  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050227/testimonial_bg_rd59w7.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
+}
+
+.sign-up {
+  background-color: #f9e42e;
+  text-align: center;
+  height: 100px;
+  margin-bottom: -4%;
+  margin-top: 0px;
 }
 
 footer {
-
+  background-color: #033048;
+  text-align: center;
+  display: block;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+header h1 {
+  font-family: 'Open sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: left;
+  padding: 3% 0% 3% 7%;
+}
 
+header h2 {
+  font-family: 'Open sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  padding: 4% 0% 4% 0%;
+}
 
+.benefits h3 {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
 
+header h4 {
+  font-family: 'Open sans', sans-serif;
+  color: #033048;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-block;
+  height: 15px;
+  text-align: center;
+  background-color: #f9e42e;
+  padding: 7px 35px 25px 35px;
+  border-radius: 5px;
+  margin-bottom: 50%;
+}
+
+.sign-up h5 {
+  font-family: 'Open sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #033048;
+  padding: 7px 35px 7px 35px;
+  border-radius: 5px;
+}
+
+footer h6 {
+  font-family: 'Open sans', sans-serif;
+  color: #f9e42e;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 5%;
+  position: relative;
+  margin-top: 2%;
+}
+
+.benefit-des p {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+li {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  font-size: 13px; 
+  padding-bottom: 1%;
+}
+
+.quote #quote-copy {
+  font-family: 'Open sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 18px; 
+  margin: 0 auto;
+  width: 40%;
+  padding: 5% 0% 2% 0%;
+}
+
+.quote #quote-name {
+  font-family: 'Open sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px; 
+  margin: 0 auto;
+  padding: 0% 0% 5% 0%;
+}
+
+.logos {
+  display: inline;
+  margin-left: -1%;
+}
+
+.twitter {
+  display: inline;
+  padding-right: 2%;
+}
+
+.facebook {
+  display: inline;
+  padding-left: 2%;
+}
+
+footer #copyright {
+  font-family: 'Open sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 9px; 
+  margin: 0 auto;
+  padding: 4% 0% 3% 0%;
+}
