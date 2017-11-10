@@ -8,7 +8,7 @@ Use this section to describe your final project and perhaps any links to relevan
 | ------------- |-------------| 
 | [GeneralAssembly](https://generalassemb.ly/)| - layout of the start learning section <br> - layout of the choose your path section | 
 | [Weather App Codepen](https://codepen.io/kristyan-p/pen/jaVYwZ) | - two-toned color scheme <br> - clean design and simple structure  |  
-|  |   |   
+| [GA Gallery - Cat Ghost](https://kristinefrancisco.github.io/cat-ghost/) | - cute, clean graphics<br> - color scheme<br> - buildable design<br> - blank background w/ lots of whitespace |   
 
 ## Wireframes
 
