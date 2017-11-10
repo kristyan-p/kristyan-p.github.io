@@ -7,7 +7,7 @@ Use this section to describe your final project and perhaps any links to relevan
 | Site Url        | Desired Features           | 
 | ------------- |-------------| 
 | [GeneralAssembly](https://generalassemb.ly/)| - layout of the start learning section <br> - layout of the choose your path section | 
-|  |   |  
+| [GeneralAssembly](https://generalassemb.ly/) |   |  
 |  |   |   
 
 ## Wireframes
