@@ -3,8 +3,7 @@
 ## Project Description
 
 I will be creating an interactive website highlighting free views of NYC. None of these views require a ticket or have an entry fee, but some require a metrocard purchase. The site will consist of two pages (I think), the homepage and an About page. I will have either a graphic design of all the burroughs or I will be using Google Maps.<br><br>
-When a user hovers over the image of the viewpoint, an informational box (or full page, but leaning toward box) will appear that contains:<br><br>
-- The name of the viewpoint<br>- Slideshow carousel of my images<br>- Directions and tips on how to access the viewpoint and surrounding touristy sites<br>- The current weather at viewpoint<br>- A Google map that automatically detects the visitor's location and determines the fastest route to viewpoint <br><br>
+When a user hovers over the image of the viewpoint, an informational box (or full page, but leaning toward box) will appear that contains:<br>- The name of the viewpoint<br>- Slideshow carousel of my images<br>- Directions and tips on how to access the viewpoint and surrounding touristy sites<br>- The current weather at viewpoint<br>- A Google map that automatically detects the visitor's location and determines the fastest route to viewpoint <br><br>
 I currently have a total of 13 viewpoints but am working on narrowing this list down! I am obsessed with views of NYC from all angles and I hope this site will inspire people to venture out to a viewpoint they've never been to. This site will be designed to be easily buildable.<br><br>
 This past GA Gallery project is similar to what I am looking to create: [Seattle History That Matters](http://seattlebackstory.com/)<br><br>
 I am hoping to create this using a graphic design of NYC, but using Google Maps and creating my own informational pop-ups might be a cleaner and more accurate option.  
