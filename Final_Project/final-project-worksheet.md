@@ -23,6 +23,9 @@ Include wireframes for all pages included in the site including:
 
 ### Landing Page
 
+Desktop Homepage
+!(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Desktop Version Homepage")
+
 #### Desktop
 
 #### Tablet
