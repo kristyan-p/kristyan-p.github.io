@@ -23,14 +23,23 @@ Include wireframes for all pages included in the site including:
 
 ### Landing Page
 
-Desktop Homepage
-!(https://drive.google.com/drive/folders/1tFCwMwqVnpcuLgab-6eSWskk0KQEt7bD "Desktop Version Homepage")
-
 #### Desktop
+Desktop Homepage
+![Desktop Homepage](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Desktop_Home_sea6zd.jpg)
+<br><br>
+Desktop About page
+![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677910/Kpak_Desktop_About_zaudej.jpg)
+<br><br>
+Desktop Pop-up page
+![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Desktop_Popup_d9okcc.jpg)
 
 #### Tablet
+Tablet About page and Pop-up page
+![Tablet About page and Pop-up page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Tablet_About_Popup_knpmcw.jpg)
 
 #### Mobile
+Mobile About page Pop-up page and Tablet and Mobile Homepage 
+![Mobile all](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Mobile_All_huszkb.jpg)
 
 ## MVP 
 
