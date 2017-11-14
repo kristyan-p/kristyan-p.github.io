@@ -47,5 +47,6 @@ Mobile About page Pop-up page and Tablet and Mobile Homepage
 
 ## POST MVP
 
-Include the full list of features that you are considering for your site's POST MVP.
+- Automatically generating directions from visitor's current location to viewpoint<br>
+- Ability for people to check off which viewpoints they have been to or add their own photos/submit suggestions for their favorite spots to be added
 
