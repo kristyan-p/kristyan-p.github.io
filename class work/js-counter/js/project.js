@@ -85,3 +85,4 @@ function changeBlue() {
   document.querySelector('#out').style.background = "#4C4CFF";
   document.querySelector("#out").style.color = "#FFFFFF";
 };
+
