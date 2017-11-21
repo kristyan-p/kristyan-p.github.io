@@ -34,7 +34,8 @@ Desktop Homepage
 Desktop About page
 ![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677910/Kpak_Desktop_About_zaudej.jpg)
 <br><br>
-Desktop Pop-up page
+Desktop Pop-up page all formats(https://codepen.io/kristyan-p/pen/VrXpvO?editors=1100)
+Desktop Pop-up page 
 ![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Desktop_Popup_d9okcc.jpg)
 
 #### Tablet
