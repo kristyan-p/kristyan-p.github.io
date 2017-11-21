@@ -1,0 +1,162 @@
+/* About page */
+/* main body */
+body {
+  max-width: 1200px; 
+  margin: 0 auto;
+  background-color: #f6c9cc;
+  padding: 0% 5% 0% 5%;
+}
+
+body p, .footer-text, .footer-text a {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 300;
+  color: #962f39;
+}
+
+body p {
+  margin-top: -4%;
+}
+
+header {
+  margin-top: 10%;
+}
+
+h1, h2 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 2.5em;
+  font-weight: 300; 
+  color: #fff
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  max-width: 960px;
+  padding: 10px;
+  display: inline-block;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  margin-top: 5%;
+  text-align: center;
+  font-size: .75em;
+}
+
+#bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* icons */
+ul {
+  padding-left: 5%;
+  margin-top: 5%;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 3em;
+  display: inline-block;
+  width: 20%;
+}
+
+.code {
+  padding-right: 3%;
+}
+
+li:hover {
+  color: #962f39;
+}
+
+/* hover to make extra icons appear */
+#extra-icons {
+  display: none;
+}
+
+.code:hover + #extra-icons {
+  display: inline-block;
+}
+
+.codepen, .email {
+  margin-right: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  #main-image {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  #right, #left {
+    display: block;
+  }
+  
+  #left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  #right {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  #bottom {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  #bottom-image {
+    margin: 0 auto;
+    float: right;
+    width: 20%;
+  }
+  ul {
+    text-align: left;
+    padding-left: 0px;
+  }
+  li {
+    margin: 0% -5% 0% 0%;
+  }
+  .footer-text {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #main-image {
+    max-width: 100%;
+  }
+  
+  #right, #left {
+    display: inline-block;
+  }
+  
+  #left {
+    width: 45%;
+    margin-right: 6%;
+  }
+  
+  #right {
+    vertical-align: top !important;
+    width: 45%;
+    margin-top: -3%;
+  }
+  
+  #bottom-image {
+    float: right;
+    width: 15%;
+  }
+}
