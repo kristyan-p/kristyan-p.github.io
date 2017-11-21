@@ -30,7 +30,7 @@ Include wireframes for all pages included in the site including:
 Desktop Homepage
 ![Desktop Homepage](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Desktop_Home_sea6zd.jpg)
 <br><br>
-[About Page all formats](https://codepen.io/kristyan-p/pen/xPPaBR)
+[About Page all formats](https://codepen.io/kristyan-p/pen/NwyOGB?editors=1100)
 Desktop About page
 ![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677910/Kpak_Desktop_About_zaudej.jpg)
 <br><br>
