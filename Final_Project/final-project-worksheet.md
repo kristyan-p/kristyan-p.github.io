@@ -23,7 +23,7 @@ I am thinking of using [Snazzy Maps](https://snazzymaps.com/) to create my custo
 Include wireframes for all pages included in the site including:
 
 ### Landing Page/Questionnaire 
-[Questionnaire Page all formats](https://codepen.io/kristyan-p/pen/bYaZed?editors=1100)
+[Questionnaire Page all formats](https://codepen.io/kristyan-p/pen/bYaZed?editors=1010)
 ![All formats landing page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510762477/Kpak_Questionnaire_All_qbhx9p.jpg)
 
 #### Desktop
@@ -36,7 +36,7 @@ Desktop About page
 <br><br>
 Desktop Pop-up page all formats(https://codepen.io/kristyan-p/pen/VrXpvO?editors=1100)
 Desktop Pop-up page 
-![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Desktop_Popup_d9okcc.jpg)
+![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Desktop_Popup_d9okcc.jpg) NEW WIREFRAME COMING SOON!
 
 #### Tablet
 Tablet About page and Pop-up page
