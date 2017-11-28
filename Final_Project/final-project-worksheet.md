@@ -26,26 +26,23 @@ Include wireframes for all pages included in the site including:
 [Questionnaire Page all formats](https://codepen.io/kristyan-p/pen/bYaZed?editors=1010)
 Question Map
 ![Question Map](http://res.cloudinary.com/dxg6sopth/image/upload/v1511880599/Question_Map_b6rogb.jpg) 
+Question Page (when visitor first comes to site)
 ![All formats question page/landing page](http://res.cloudinary.com/dxg6sopth/image/upload/v1511880604/Updated_Questionnaire_hp9kxx.jpg) 
 
 #### Desktop
-Desktop Homepage
+Desktop Map Page (after visitor completes questionnaire)
 ![Desktop Homepage](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Desktop_Home_sea6zd.jpg)
 <br><br>
 [About Page all formats](https://codepen.io/kristyan-p/pen/NwyOGB?editors=1100)
 Desktop About page
 ![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677910/Kpak_Desktop_About_zaudej.jpg)
-<br><br>
-Desktop Pop-up page all formats(https://codepen.io/kristyan-p/pen/VrXpvO?editors=1100)
-Desktop Pop-up page 
-![Desktop About page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Desktop_Popup_d9okcc.jpg)
 
 #### Tablet
-Tablet About page and Pop-up page
+Tablet About Page (not using Tablet Pop-up Page)
 ![Tablet About page and Pop-up page](http://res.cloudinary.com/dxg6sopth/image/upload/v1510677835/Kpak_Tablet_About_Popup_knpmcw.jpg)
 
 #### Mobile
-Desktop and Mobile Pop-up on map page
+Desktop and Mobile Pop-up on Map Page
 ![Mobile all](http://res.cloudinary.com/dxg6sopth/image/upload/v1511880604/Updated_Popup_idwobv.jpg)
 
 ## MVP 
