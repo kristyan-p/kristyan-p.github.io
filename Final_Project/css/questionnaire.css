@@ -1,0 +1,143 @@
+/* About page */
+/* main body */
+body {
+  max-width: 700px; 
+  margin: 0 auto;
+  background-color: #f6c9cc;
+  padding: 0% 5% 0% 5%;
+}
+
+body p, footer {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+}
+
+body p, .footer-text, .footer-text a {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 300;
+  color: #962f39;
+}
+
+h1, h2, #first-choice, #second-choice {
+  font-family: 'Palanquin Dark', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300; 
+}
+
+h2 {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  color: #f6c9cc !important;
+  background-color: #962f39;
+}
+
+main {
+  max-width: 650px;
+  padding: 10px;
+  display: inline-block;
+}
+
+#bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  margin-top: 5%;
+  text-align: center;
+  font-size: .75em;
+}
+
+.footer-text::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  #home-button {
+    float: right;
+    font-size: 1em;
+    text-decoration: none;
+    color:  #FFF;
+    border: 2px solid #fff;
+    padding: 8px 8px 8px 8px;
+    border-radius: 30px;
+    margin-right: 2%;
+  }
+  #question, #answer-choices {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #main-question {
+    font-size: 2em;
+    color: #fff;
+  }
+  #first-choice, #second-choice {
+    font-size: 1.5em;
+    color: #962f39;
+    border: 2px solid #962f39;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px 8px 10px 8px;
+    border-radius: 30px;
+  }
+  #bottom {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #bottom-image {
+    margin: 0 auto;
+    float: right;
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #home-button {
+    float: right;
+    text-decoration: none;
+    display: inline;
+    color:  #fff;
+    border: solid 3px #fff;
+    padding: 8px 10px 8px 10px;
+    font-size: 1.5em;
+    border-radius: 30px;
+  }
+  #question, #answer-choices {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #main-question {
+    font-size: 3.5em;
+    color: #FFF;
+  }
+  #first-choice, #second-choice {
+    font-size: 2.5em;
+    color: #962f39;
+    border: 3px solid #962f39;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 8px 15px 8px 15px;
+    border-radius: 30px;
+  }
+  #bottom-image {
+    float: right;
+    width: 15%;
+  }
+}
