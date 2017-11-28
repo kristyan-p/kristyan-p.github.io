@@ -24,6 +24,7 @@ header {
 h1, h2 {
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 2.5em;
+  
   font-weight: 300; 
   color: #fff
 }
@@ -56,41 +57,9 @@ footer {
   clear: both;
 }
 
-/* icons */
-ul {
-  padding-left: 5%;
-  margin-top: 5%;
-  text-align: left;
-}
-
-li {
-  list-style: none;
-  text-decoration: none;
-  color: #fff;
-  font-size: 3em;
-  display: inline-block;
-  width: 20%;
-}
-
-.code {
-  padding-right: 3%;
-}
-
-li:hover {
-  color: #962f39;
-}
-
 /* hover to make extra icons appear */
 #extra-icons {
   display: none;
-}
-
-.code:hover + #extra-icons {
-  display: inline-block;
-}
-
-.codepen, .email {
-  margin-right: 2%;
 }
 
 @media screen and (max-width: 768px) {
@@ -123,15 +92,42 @@ li:hover {
     float: right;
     width: 20%;
   }
-  ul {
-    text-align: left;
-    padding-left: 0px;
-  }
-  li {
-    margin: 0% -5% 0% 0%;
-  }
+  
   .footer-text {
     padding-top: 5%;
+  }
+  /* icons */
+  ul {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+    text-align: left;
+  }
+
+  li {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5em;
+    display: inline-block;
+  }
+  
+  .coding {
+    margin: 0% 10% 0% 10%;
+  }
+  
+/* adjustment when hover is opened */
+  #extra-icons {
+    width: 50%;
+    margin-left: 5%;
+  }
+
+  .codepen, .github, .email {
+    width: 30%;
+  }
+  
+  li:hover {
+    color: #962f39;
   }
 }
 
@@ -158,5 +154,43 @@ li:hover {
   #bottom-image {
     float: right;
     width: 15%;
+  }
+  
+/* icons */
+  ul {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+    text-align: left;
+  }
+
+  li {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 3.5em;
+    display: inline-block;
+  }
+  
+  .coding {
+    margin: 0% 10% 0% 10%;
+  }
+  
+/* adjustment when hover is opened */
+  #extra-icons {
+    width: 50%;
+    margin-left: 5%;
+  }
+
+  .codepen, .github, .email {
+    width: 30%;
+  }
+  
+  .codepen {
+    margin: 0% 3% 0% -2%;
+  }
+
+  li:hover {
+    color: #962f39;
   }
 }
