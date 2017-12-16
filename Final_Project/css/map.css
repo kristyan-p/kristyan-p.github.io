@@ -6,72 +6,142 @@ html, body {
   margin: 0;
   padding: 0;
 }
-h1 {
-  font-family: 'Palanquin Dark', sans-serif;
-  letter-spacing: 1px;
-  line-height: 1em;
-  font-weight: 300; 
-  font-size: 3em;
-  color: #962f39;
-  margin: 10px 0px 10px 10px;
+
+/* mobile/tablet view */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-weight: 300; 
+    font-size: 3em;
+    color: #962f39;
+    margin: 5px 0px 5px 5px;
+  }
+  #bodyContent p {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    margin: 0px 0px 0px 5px;
+  }
+  .fa.fa-location-arrow {
+    font-size: 1.3em;
+    margin: 5px 0px 5px 5px;
+    color: #f6c9cc;
+  }
+  .fa.fa-building {
+    font-size: 1.2em;
+    margin: 5px 0px 5px 10px;
+    color: #f6c9cc;
+  }
+  .fa.fa-repeat {
+    font-size: 1.2em;
+    margin: 5px 0px 5px 10px;
+    color: #f6c9cc;
+  }
+  .directions {
+    display: block;
+    width: 100%;
+    align-items: center;
+    height: 30px;
+  }
+  .directions a {
+    font-size: 1em;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-decoration: none;
+    color: #962f39;
+  }
+  .directions a:hover {
+    font-size: 1em;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .directions a:visited {
+    color: #962f39;
+  }
+  .img-div {
+    overflow: hidden;
+    max-width: 350px !important;
+    float: right;
+    margin: 0px 5px 5px 5px;
+  }
+  .pierCimg {
+    max-width: 350px !important;
+    float: right;
+  }
 }
-#bodyContent p {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 100;
-  font-size: 1.3em;
-  margin: 0px 0px 0px 10px;
+
+/* desktop */
+@media screen and (min-width: 769px) {
+  h1 {
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-weight: 300; 
+    font-size: 3em;
+    color: #962f39;
+    margin: 10px 0px 10px 10px;
+  }
+  #bodyContent p {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    margin: 0px 0px 0px 10px;
+  }
+  .fa.fa-location-arrow {
+    font-size: 1.7em;
+    margin: 10px 0px 10px 10px;
+    color: #f6c9cc;
+  }
+  .fa.fa-building {
+    font-size: 1.3em;
+    margin: 10px 0px 10px 20px;
+    color: #f6c9cc;
+  }
+  .fa.fa-repeat {
+    font-size: 1.3em;
+    margin: 10px 0px 10px 20px;
+    color: #f6c9cc;
+  }
+  .directions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+  }
+  .directions a {
+    font-size: 1.5em;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-decoration: none;
+    color: #962f39;
+  }
+  .directions a:hover {
+    font-size: 1.75em;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .directions a:visited {
+    color: #962f39;
+  }
+  .img-div {
+    overflow: hidden;
+    max-width: 400px !important;
+    float: right;
+    margin: 0px 10px 10px 10px;
+  }
+  .pierCimg {
+    max-width: 400px !important;
+    float: right;
+  }
+  .pierCimg:hover {
+    background-color: #000;
+    transform: scale(1.4);
+    transition: all .5s;
+  }
+  .about-link {
+    font-family: 'Palanquin Dark', sans-serif;
+  }
 }
-.fa.fa-location-arrow {
-  font-size: 1.7em;
-  margin: 10px 0px 10px 10px;
-  color: #f6c9cc;
-}
-.fa.fa-building {
-  font-size: 1.3em;
-  margin: 10px 0px 10px 20px;
-  color: #f6c9cc;
-}
-.fa.fa-repeat {
-  font-size: 1.3em;
-  margin: 10px 0px 10px 20px;
-  color: #f6c9cc;
-}
-.directions {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 60px;
-}
-.directions a {
-  font-size: 1.5em;
-  font-family: 'Palanquin Dark', sans-serif;
-  text-decoration: none;
-  color: #962f39;
-}
-.directions a:hover {
-  font-size: 1.75em;
-  -webkit-transition-duration: 0.2s; 
-  transition-duration: 0.2s;
-  cursor: pointer;
-}
-.directions a:visited {
-  color: #962f39;
-}
-.img-div {
-  overflow: hidden;
-  max-width: 400px !important;
-  float: right;
-  margin: 0px 10px 10px 10px;
-}
-.pierCimg {
-  max-width: 400px !important;
-  float: right;
-}
-.pierCimg:hover {
-  background-color: #000;
-  transform: scale(1.4);
-  transition: all .5s;
-}
-.about-link {
-  font-family: 'Palanquin Dark', sans-serif;
-}
+
