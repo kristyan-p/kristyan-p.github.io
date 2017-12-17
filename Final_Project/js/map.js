@@ -7,7 +7,6 @@ var map;
           center: {lat: 40.769013, lng: -73.966270},
           zoom: 12,
           styles: [
-
             {
               featureType: 'landscape.man_made',
               elementType: 'geometry',
