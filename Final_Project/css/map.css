@@ -107,8 +107,8 @@ html, body {
   .directions {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 60px;
+    justify-content: space-between;
+    width: 100%;
   }
   .directions a {
     font-size: 1.5em;
@@ -144,4 +144,3 @@ html, body {
     font-family: 'Palanquin Dark', sans-serif;
   }
 }
-
