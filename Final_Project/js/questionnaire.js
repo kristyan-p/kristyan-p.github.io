@@ -125,7 +125,7 @@ $(document).on('click', '#northern1', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked<br> Morningside Park!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Central Park Reservoir
 $(document).on('click', '#central', function(){
@@ -137,7 +137,7 @@ $(document).on('click', '#central', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the Central Park <br>Reservoir!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //The Whitney Museum Free Fridays
 $(document).on('click', '#nighttime', function(){
@@ -149,7 +149,7 @@ $(document).on('click', '#nighttime', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the Whitney Museum <br>Free Fridays!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //The Highline
 $(document).on('click', '#daytime', function(){
@@ -161,7 +161,7 @@ $(document).on('click', '#daytime', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the Highline!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Roosevelt Island and tram
 $(document).on('click', '#aerial', function(){
@@ -173,7 +173,7 @@ $(document).on('click', '#aerial', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Roosevelt Island <br>and Tram!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Astoria Park
 $(document).on('click', '#laidback', function(){
@@ -185,7 +185,7 @@ $(document).on('click', '#laidback', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Astoria Park!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Brooklyn Bridge Park and Promenade
 $(document).on('click', '#hustle', function(){
@@ -197,7 +197,7 @@ $(document).on('click', '#hustle', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Brooklyn Bridge Park <br>and Promenade!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Gantry Plaza State Park
 $(document).on('click', '#picnic', function(){
@@ -209,7 +209,7 @@ $(document).on('click', '#picnic', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Gantry Plaza State Park!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Greenpoint
 $(document).on('click', '#restaurant', function(){
@@ -221,7 +221,7 @@ $(document).on('click', '#restaurant', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Greenpoint!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //GWB and Fort Lee
 $(document).on('click', '#northern2', function(){
@@ -233,7 +233,7 @@ $(document).on('click', '#northern2', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the George Washington Bridge <br>and Fort Lee!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Pier C Park
 $(document).on('click', '#south3', function(){
@@ -245,7 +245,7 @@ $(document).on('click', '#south3', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Pier C Park!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Governors Island
 $(document).on('click', '#allday', function(){
@@ -257,7 +257,7 @@ $(document).on('click', '#allday', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Governors Island!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
 //Staten Island Ferry
 $(document).on('click', '#short', function(){
@@ -269,5 +269,5 @@ $(document).on('click', '#short', function(){
     $('.footer-text a').css('color','#f6c9cc');
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the Staten Island Ferry!</span>');
-    $('#letsgo').html('<a href="http://www.google.com">Let\'s Go!</a>');
+    $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
 });
