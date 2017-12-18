@@ -3,9 +3,17 @@
 body {
   max-width: 700px; 
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 8%;
   background-color: #f6c9cc;
   padding: 0% 5% 20% 5%;
+}
+
+a {
+  color: #962f39;
+}
+
+a:hover {
+  color: #fff;
 }
 
 .bkg {
