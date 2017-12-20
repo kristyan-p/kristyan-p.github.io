@@ -165,6 +165,7 @@ $(document).on('click', '#daytime', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the Highline!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+     localStorage.setItem('result', 'highline');
 });
 //Roosevelt Island and tram
 $(document).on('click', '#aerial', function(){
@@ -177,6 +178,7 @@ $(document).on('click', '#aerial', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Roosevelt Island <br>and Tram!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'roosevelt');
 });
 //Astoria Park
 $(document).on('click', '#laidback', function(){
@@ -189,6 +191,7 @@ $(document).on('click', '#laidback', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Astoria Park!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'astoria');
 });
 //Brooklyn Bridge Park and Promenade
 $(document).on('click', '#hustle', function(){
@@ -201,6 +204,7 @@ $(document).on('click', '#hustle', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Brooklyn Bridge Park <br>and Promenade!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'BK');
 });
 //Gantry Plaza State Park
 $(document).on('click', '#picnic', function(){
@@ -213,6 +217,7 @@ $(document).on('click', '#picnic', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Gantry Plaza State Park!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'gantry');
 });
 //Greenpoint
 $(document).on('click', '#restaurant', function(){
@@ -225,6 +230,7 @@ $(document).on('click', '#restaurant', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Greenpoint!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'greenpoint');
 });
 //GWB and Fort Lee
 $(document).on('click', '#northern2', function(){
@@ -237,6 +243,7 @@ $(document).on('click', '#northern2', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the George Washington Bridge <br>and Fort Lee!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'GWB');
 });
 //Pier C Park
 $(document).on('click', '#south3', function(){
@@ -249,6 +256,7 @@ $(document).on('click', '#south3', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Pier C Park!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'pierC');
 });
 //Governors Island
 $(document).on('click', '#allday', function(){
@@ -261,6 +269,7 @@ $(document).on('click', '#allday', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>Governors Island!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'govIsland');
 });
 //Staten Island Ferry
 $(document).on('click', '#short', function(){
@@ -273,4 +282,5 @@ $(document).on('click', '#short', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the Staten Island Ferry!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'ferry');
 });

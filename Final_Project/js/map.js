@@ -451,6 +451,25 @@ var map;
             reservoirinfowindow.open(map, reservoirmarker);
         } else if (result == 'whitney') {
             whitneyinfowindow.open(map, whitneymarker);
+        } else if (result == 'highline') {
+            highlineinfowindow.open(map, highlinemarker);
+        } else if (result == 'roosevelt') {
+            rooseveltinfowindow.open(map, rooseveltmarker);
+        } else if (result == 'astoria') {
+            astoriainfowindow.open(map, astoriamarker);
+        } else if (result == 'BK') {
+            BKinfowindow.open(map, BKmarker);
+        } else if (result == 'gantry') {
+            gantryinfowindow.open(map, gantrymarker);
+        } else if (result == 'greenpoint') {
+            greenpointinfowindow.open(map, greenpointmarker);
+        } else if (result == 'GWB') {
+            GWBinfowindow.open(map, GWBmarker);
+        } else if (result == 'pierC') {
+            pierCinfowindow.open(map, pierCmarker);
+        } else if (result == 'govIsland') {
+            govIslandinfowindow.open(map, govIslandmarker);
+        } else if (result == 'ferry') {
+            ferryinfowindow.open(map, ferrymarker);
         };
-        //ferryinfowindow.open(map, ferrymarker);
       }
