@@ -31,7 +31,7 @@ body p, footer {
 body p, .footer-text, .footer-text a {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 300;
-  color: #962f39;
+  color: #962f39 !important;
 }
 
 h1, h2, #takequiz, #letsgo, #inside, #outside, #park, #buildings, #northern1, #northern2, #central, #nighttime, #daytime, #east1, #east2, #west1, #west2, #south1, #south2, #south3, #aerial, #ground, #closer, #farther, #allday, #short, #laidback, #hustle, #picnic, #restaurant {
