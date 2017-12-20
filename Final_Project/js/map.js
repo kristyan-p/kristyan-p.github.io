@@ -440,4 +440,12 @@ var map;
         morningsidemarker.addListener('click', function() {
           morningsideinfowindow.open(map, morningsidemarker);
         });
+        
+        //grab local storage 
+        var result = localStorage.getItem('result');
+        //if/else to open according to 
+        if (result == 'morningside') {
+          morningsideinfowindow.open(map, morningsidemarker);
+        } 
+        //ferryinfowindow.open(map, ferrymarker);
       }
