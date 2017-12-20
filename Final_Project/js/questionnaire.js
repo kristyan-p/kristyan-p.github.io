@@ -126,7 +126,7 @@ $(document).on('click', '#northern1', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked<br> Morningside Park!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
-  //localStorage.setItem('result', 'ferry');
+    localStorage.setItem('result', 'morningside');
 });
 //Central Park Reservoir
 $(document).on('click', '#central', function(){
@@ -139,6 +139,7 @@ $(document).on('click', '#central', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the Central Park <br>Reservoir!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'reservoir');
 });
 //The Whitney Museum Free Fridays
 $(document).on('click', '#nighttime', function(){
@@ -151,6 +152,7 @@ $(document).on('click', '#nighttime', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked <br>the Whitney Museum <br>Free Fridays!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+    localStorage.setItem('result', 'whitney');
 });
 //The Highline
 $(document).on('click', '#daytime', function(){

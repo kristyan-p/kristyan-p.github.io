@@ -441,11 +441,16 @@ var map;
           morningsideinfowindow.open(map, morningsidemarker);
         });
         
-        //grab local storage 
-        var result = localStorage.getItem("result");
+        // Set up infoboxes to automatically open 
+        // grab local storage 
+        var result = localStorage.getItem('result');
         //if/else to open according to 
-        if (result == "morningside") {
-          morningsideinfowindow.open(map, morningsidemarker);
+        if (result == 'morningside') {
+            morningsideinfowindow.open(map, morningsidemarker);
+        } else if (result == 'reservoir') {
+            morningsideinfowindow.open(map, morningsidemarker);
+        } else if (result == 'whitney') {
+            whitneyinfowindow.open(map, whitneymarker);
         };
         //ferryinfowindow.open(map, ferrymarker);
       }
