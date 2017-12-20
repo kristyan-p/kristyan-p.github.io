@@ -79,7 +79,7 @@ $(document).on('click', '#farther', function(){
 $(document).on('click', '#west1', function(){
   $('.main-question').html('West side view <br>or south side view?');
     $('#east1').replaceWith('<div id="west2">' + 'West' + '</div>');
-    $('#west1').replaceWith('<div id="south2">' + 'Southern' + '</div>');
+    $('#west1').replaceWith('<div id="south2">' + 'South' + '</div>');
 });
 
 $(document).on('click', '#west2', function(){
@@ -126,6 +126,7 @@ $(document).on('click', '#northern1', function(){
     $('body').addClass('bkg'); 
     $('.main-question').html('<span style="color:#962f39">You picked<br> Morningside Park!</span>');
     $('#letsgo').html('<a href="https://kristyan-p.github.io/Final_Project/map.html">Let\'s Go!</a>');
+  //localStorage.setItem('result', 'ferry');
 });
 //Central Park Reservoir
 $(document).on('click', '#central', function(){
