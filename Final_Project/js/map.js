@@ -446,6 +446,6 @@ var map;
         //if/else to open according to 
         if (result == 'morningside') {
           morningsideinfowindow.open(map, morningsidemarker);
-        } 
+        };
         //ferryinfowindow.open(map, ferrymarker);
       }
