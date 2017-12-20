@@ -442,9 +442,9 @@ var map;
         });
         
         //grab local storage 
-        var result = localStorage.getItem('result');
+        var result = localStorage.getItem("result");
         //if/else to open according to 
-        if (result == 'morningside') {
+        if (result == "morningside") {
           morningsideinfowindow.open(map, morningsidemarker);
         };
         //ferryinfowindow.open(map, ferrymarker);
