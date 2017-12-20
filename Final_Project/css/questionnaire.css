@@ -67,7 +67,7 @@ a {
 
 #takequiz:active, #letsgo:active, #inside:active, #outside:active, #park:active, #buildings:active, #northern1:active, #northern2:active, #central:active, #nighttime:active, #daytime:active, #east1:active, #east2:active, #west1:active, #west2:active, #south1:active, #south2:active, #south3:active,  #aerial:active, #ground:active, #closer:active, #farther:active, #allday:active, #short:active, #laidback:active, #hustle:active, #picnic:active, #restaurant:active {
   color: #fff;
-  background-color: #000;
+  background-color: #000000;
   -webkit-transition-duration: 0.7s; 
   transition-duration: 0.7s;
   width: 300px;
