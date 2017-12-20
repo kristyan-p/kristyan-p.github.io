@@ -448,7 +448,7 @@ var map;
         if (result == 'morningside') {
             morningsideinfowindow.open(map, morningsidemarker);
         } else if (result == 'reservoir') {
-            morningsideinfowindow.open(map, morningsidemarker);
+            reservoirinfowindow.open(map, reservoirmarker);
         } else if (result == 'whitney') {
             whitneyinfowindow.open(map, whitneymarker);
         };
