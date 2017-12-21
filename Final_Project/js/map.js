@@ -447,8 +447,10 @@ var map;
         //if/else to open according to 
         if (result == 'morningside') {
             morningsideinfowindow.open(map, morningsidemarker);
+            map.setCenter(morningsidemarker.getPosition());
         } else if (result == 'reservoir') {
             reservoirinfowindow.open(map, reservoirmarker);
+            map.setCenter(reservoirmarker.getPosition());
         } else if (result == 'whitney') {
             whitneyinfowindow.open(map, whitneymarker);
         } else if (result == 'highline') {
