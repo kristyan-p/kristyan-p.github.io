@@ -466,7 +466,6 @@ var map;
         if (result == 'morningside') {
             morningsideinfowindow.open(map, morningsidemarker);
             map.setCenter(morningsidemarker.getPosition());
-            morningsideinfowindow.css({'margin-top': '100px'});
         } else if (result == 'reservoir') {
             reservoirinfowindow.open(map, reservoirmarker);
             map.setCenter(reservoirmarker.getPosition());
