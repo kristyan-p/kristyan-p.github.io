@@ -465,10 +465,16 @@ var map;
         //if/else to open according to 
         if (result == 'morningside') {
             morningsideinfowindow.open(map, morningsidemarker);
-            map.setCenter(morningsidemarker.getPosition());
+             map.setCenter(morningsidemarker.getPosition());
+             setTimeout(function() {
+             morningsideinfowindow.open(map, morningsidemarker);
+              }, 300);
         } else if (result == 'reservoir') {
             reservoirinfowindow.open(map, reservoirmarker);
             map.setCenter(reservoirmarker.getPosition());
+             setTimeout(function() {
+             reservoirinfowindow.open(map, reservoirmarker);
+              }, 300);
         } else if (result == 'whitney') {
             whitneyinfowindow.open(map, whitneymarker);
             map.setCenter(whitneymarker.getPosition()); 
