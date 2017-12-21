@@ -129,6 +129,7 @@ var map;
             }
           ]
         });  
+        
         // Pier C Park
         var pierCcontentString = '<div class="content">'+
             '<div class="siteNotice">'+
@@ -441,6 +442,23 @@ var map;
           morningsideinfowindow.open(map, morningsidemarker);
         });
         
+        // Closes infowindow when map is clicked 
+         google.maps.event.addListener(map, "click", function(event) {
+           morningsideinfowindow.close();
+           reservoirinfowindow.close();
+           whitneyinfowindow.close();
+           highlineinfowindow.close();
+           rooseveltinfowindow.close();
+           astoriainfowindow.close();
+           BKinfowindow.close();
+           gantryinfowindow.close();
+           greenpointinfowindow.close();
+           GWBinfowindow.close();
+           pierCinfowindow.close();
+           govIslandinfowindow.close();
+           ferryinfowindow.close();
+        });
+        
         // Set up infoboxes to automatically open 
         // grab local storage 
         var result = localStorage.getItem('result');
@@ -453,25 +471,36 @@ var map;
             map.setCenter(reservoirmarker.getPosition());
         } else if (result == 'whitney') {
             whitneyinfowindow.open(map, whitneymarker);
+            map.setCenter(whitneymarker.getPosition()); 
         } else if (result == 'highline') {
             highlineinfowindow.open(map, highlinemarker);
+            map.setCenter(highlinemarker.getPosition());
         } else if (result == 'roosevelt') {
             rooseveltinfowindow.open(map, rooseveltmarker);
+            map.setCenter(rooseveltmarker.getPosition());
         } else if (result == 'astoria') {
             astoriainfowindow.open(map, astoriamarker);
+            map.setCenter(astoriamarker.getPosition());
         } else if (result == 'BK') {
             BKinfowindow.open(map, BKmarker);
+            map.setCenter(BKmarker.getPosition());
         } else if (result == 'gantry') {
             gantryinfowindow.open(map, gantrymarker);
+            map.setCenter(gantrymarker.getPosition());
         } else if (result == 'greenpoint') {
             greenpointinfowindow.open(map, greenpointmarker);
+            map.setCenter(greenpointmarker.getPosition());
         } else if (result == 'GWB') {
             GWBinfowindow.open(map, GWBmarker);
+            map.setCenter(GWBmarker.getPosition());
         } else if (result == 'pierC') {
             pierCinfowindow.open(map, pierCmarker);
+            map.setCenter(pierCmarker.getPosition());
         } else if (result == 'govIsland') {
             govIslandinfowindow.open(map, govIslandmarker);
+            map.setCenter(govIslandmarker.getPosition());
         } else if (result == 'ferry') {
             ferryinfowindow.open(map, ferrymarker);
+            map.setCenter(ferrymarker.getPosition());
         };
       }
