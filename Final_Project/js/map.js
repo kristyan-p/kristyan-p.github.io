@@ -440,6 +440,7 @@ var map;
         });
         morningsidemarker.addListener('click', function() {
           morningsideinfowindow.open(map, morningsidemarker);
+          map.setCenter(morningsidemarker.getPosition());
         });
         
         // Closes infowindow when map is clicked 
