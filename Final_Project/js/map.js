@@ -136,7 +136,7 @@ var map;
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">Pier C Park</h1>'+
             '<div id="bodyContent">'+
-            '<div class="img-div"><img class="pierCimg" src="https://res.cloudinary.com/dxg6sopth/image/upload/v1513026376/PierCPark_Night_iStock_irtxoh.jpg"></div>'+
+            '<div class="img-div"><img class="pierCimg" src="https://res.cloudinary.com/dxg6sopth/image/upload/v1513026376/PierCPark_Night_iStock_irtxoh.jpg"></div>'+ 
             '<p>Need to get out of Manhattan but want to be home in time for dinner? Visit Pier C Park located in Hoboken, New Jersey. Take the PATH train to Hoboken and walk north along the water. Pier C Park is a great place to enjoy views of Manhattan’s entire west side. Downtown views are especially clear here, so be sure to come when it’s not overcast! Daytime and nighttime views are equally enjoyable so stay a couple hours to see the sunset. There are plenty of restaurants and bars so feel free to come hungry.</p>'+'<div class="directions"><a href="https://goo.gl/maps/isWMrtA7pn42" target="_blank"><i class="fa fa-location-arrow" aria-hidden="true"></i> Take me here</a> <a href="https://kristyan-p.github.io/Final_Project/about.html" target="_blank"><i class="fa fa-building" aria-hidden="true"></i> About Cheap Viewz</a> <a href="https://kristyan-p.github.io/Final_Project/questionnaire.html" target="_blank"><i class="fa fa-repeat" aria-hidden="true"></i> Take quiz again</a></div>'+
             '</div>'+
             '</div>';
@@ -376,7 +376,7 @@ var map;
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">The Whitney Museum Free Fridays</h1>'+
             '<div id="bodyContent">'+
-            '<div class="img-div"><img class="pierCimg" src="https://res.cloudinary.com/dxg6sopth/image/upload/v1512245532/20150725_185328_dkhhto.jpg"></div>'+
+            '<div class="img-div"><img class="pierCimg" src="https://res.cloudinary.com/dxg6sopth/image/upload/v1513026311/Whitney_Day_d45ncx.jpg"></div>'+
             '<p>Free this Friday night? Stop by The Whitney Museum from 7 to 10pm and pay what you wish. Stop at each outdoor terrace to enjoy views of Manhattan’s west side and the Meatpacking District. Daytime views make for a great photo opportunity, but the nighttime views are even more magical. It can get windy up there, so dress accordingly!</p>'+'<div class="directions"><a href="https://goo.gl/maps/b1DutEk5iGE2" target="_blank"><i class="fa fa-location-arrow" aria-hidden="true"></i> Take me here</a> <a href="https://kristyan-p.github.io/Final_Project/about.html" target="_blank"><i class="fa fa-building" aria-hidden="true"></i> About Cheap Viewz</a> <a href="https://kristyan-p.github.io/Final_Project/questionnaire.html" target="_blank"><i class="fa fa-repeat" aria-hidden="true"></i> Take quiz again</a></div>'+
             '</div>'+
             '</div>';
@@ -440,7 +440,6 @@ var map;
         });
         morningsidemarker.addListener('click', function() {
           morningsideinfowindow.open(map, morningsidemarker);
-          map.setCenter(morningsidemarker.getPosition());
         });
         
         // Closes infowindow when map is clicked 
