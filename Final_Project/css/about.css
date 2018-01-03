@@ -15,11 +15,12 @@ body p, .footer-text, .footer-text a {
 
 a:hover {
   cursor: pointer;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .footer-text a:hover {
   color: #fff;
-  transition: all 1s;
 }  
 
 li:active {
@@ -93,6 +94,8 @@ footer {
   #main-image {
     max-width: 100%;
     margin: 0 auto;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
   }
   #right, #left {
     display: block;
@@ -157,6 +160,8 @@ footer {
 @media screen and (min-width: 769px) {
   #main-image {
     max-width: 100%;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
   }
   #right, #left {
     display: inline-block;
@@ -172,7 +177,7 @@ footer {
   }
   #bottom-image {
     float: right;
-    width: 50% !important;
+    width: 50%;
     margin: -3% 2% -2% 0%;
   }
 /* icons */
