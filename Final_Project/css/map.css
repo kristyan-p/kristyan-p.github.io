@@ -6,6 +6,22 @@ html, body {
   margin: 0;
   padding: 0;
 }
+.pierCimg {
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+.pierCimg:hover {
+  background-color: #000;
+  transform: scale(1.4);
+}
+.directions a {
+  -webkit-transition-duration: 0.6s ease; 
+  transition-duration: 0.6s ease;
+}
+.directions a:hover  {
+  font-size: 1.75em;
+  cursor: pointer;
+}
 
 /* mobile/tablet view */
 @media screen and (max-width: 768px) {
@@ -50,12 +66,6 @@ html, body {
     font-family: 'Palanquin Dark', sans-serif;
     text-decoration: none;
     color: #962f39;
-  }
-  .directions a:hover {
-    font-size: 1em;
-    -webkit-transition-duration: 0.2s; 
-    transition-duration: 0.2s;
-    cursor: pointer;
   }
   .directions a:visited {
     color: #962f39;
@@ -116,12 +126,6 @@ html, body {
     text-decoration: none;
     color: #962f39;
   }
-  .directions a:hover {
-    font-size: 1.75em;
-    -webkit-transition-duration: 0.2s; 
-    transition-duration: 0.2s;
-    cursor: pointer;
-  }
   .directions a:visited {
     color: #962f39;
   }
@@ -134,11 +138,6 @@ html, body {
   .pierCimg {
     max-width: 400px !important;
     float: right;
-  }
-  .pierCimg:hover {
-    background-color: #000;
-    transform: scale(1.4);
-    transition: all .5s;
   }
   .about-link {
     font-family: 'Palanquin Dark', sans-serif;
